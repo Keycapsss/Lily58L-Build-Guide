@@ -146,7 +146,7 @@ Solder the pins and shorten the pins with diagonal pliers.
 
 ![](img/mill-max-12-single-row-socket-4.jpg)
 
-For other ways to mount your Pro Micros, look at ![the crkbd build guide.](https://nicedoc.io/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md#using-pin-sockets)
+For other ways to mount your Pro Micros, look at [the crkbd build guide.](https://nicedoc.io/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md#using-pin-sockets)
 
 Before you ask: The Procedure is absolutely identical for the Elite-C.
 
