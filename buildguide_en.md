@@ -81,6 +81,8 @@ The led's are connected in series. If a led is broken or has bad solder connecti
 Solder the SK6812 Mini-E led's (with legs), on the **back side** of the board.  
 **Pay attention to orientation of the led's.**
 
+We solder LEDs using the same approach as for the diodes.In that case: tin one pad, put the LED on, reflow, solder the other three pins.
+
 ![](img/sk6812-mini-e-led-1.jpg)
 
 Correct orientation from the front view.
@@ -98,7 +100,7 @@ It is necessary to solder all led's, even if you use the rotary encoder.
 For the LEDs it's important to keep the heating as short as possible. Try to not touch the LED itself with the iron but rather only the solder that's supposed to connect to the metal pin. Use flux. 
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will either not light up at all or will light up in a different color than the default (red).
 Doublecheck the last LED that lights up properly and the first that doesn't.
-On the LEDs with legs it's easyly possible to get a loose connection. If you can try to not connect the 
+On the LEDs with legs it's easily possible to get a loose connection. 
 
 ## Soldering the TRRS jack and reset switch
 The TRRS jack and the reset switch are mounted on the **front side** (opposite side of diodes).
@@ -106,6 +108,7 @@ Attach the parts and fix them temporarily with masking tape. Turn over the board
 
 ![TRRS jack and reset button](img/trrs-jack-reset-button-1.jpg)
 
+**be careful** don't be careless doing this part. TRRS jacks are parts you can indeed mess up. I promise. 
 
 ## Attach the OLED display
 On the **front side** of the board, apply enough solder to bridge the four jumper terminals in the Pro Micro section.
@@ -113,14 +116,13 @@ On the **front side** of the board, apply enough solder to bridge the four jumpe
 ![](img/oled-jumper-pins-1.jpg)
 
 Attach the connector for the OLED on front side (opposite side of diodes). Be careful to avoid adding a lot of solder, as it is easy for solder to flow into the connector.
-![]()
 
 ## Install Pro Micro
 
 Before installing the Pro Micro, no matter which (can also happen on the elite c), check whether they are working by plugging them in and flashing the default keymap. 
 
 The pin header enclosed in the bag of Pro Micro can be used, but i recommend to use the Mill-Max socket headers.
-With the Mill-Max header it's easier to replace the Pro Micro, if it's broken.
+With the Mill-Max header it's easier to replace the Pro Micro, if it's broken. (Especially the Pro Micros will break at some point)
 
 ![Standard header/ Mill-Max socket header](img/mill-max-12-single-row-socket-1.jpg)
 
@@ -138,7 +140,6 @@ On the **front side** of the board, apply enough solder to bridge the four jumpe
 ![](img/oled-jumper-pins-1.jpg)
 
 Attach the connector for the OLED on front side (opposite side of diodes). Be careful to avoid adding a lot of solder, as it is easy for solder to flow into the connector.
-![]()
 
 ![](img/mill-max-12-single-row-socket-2.jpg)
 
