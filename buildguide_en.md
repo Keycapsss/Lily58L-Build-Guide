@@ -134,12 +134,7 @@ Solder the Standard header/Mill-Max sockets from the **back side**.
 
 ![Mill-Max socket headers](img/mill-max-socket-header-1.jpg)
 
-Insert the pins (you can also use legs from through hole diodes/resistor) with a plier into the sockets.## Attach the OLED display
-On the **front side** of the board, apply enough solder to bridge the four jumper terminals in the Pro Micro section.
-
-![](img/oled-jumper-pins-1.jpg)
-
-Attach the connector for the OLED on front side (opposite side of diodes). Be careful to avoid adding a lot of solder, as it is easy for solder to flow into the connector.
+Insert the pins (you can also use legs from through hole diodes/resistor) with a plier into the sockets.
 
 ![](img/mill-max-12-single-row-socket-2.jpg)
 
