@@ -30,7 +30,7 @@
 
 ### Required parts
 
-Part name | Quantity | Remarks | Photo |
+Part name | Quantitie | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
 | Lily58L PCB | 2 pcs ||
 | Lily58L case | 1 set | 2 solid panels, 2 with holes for switches |
