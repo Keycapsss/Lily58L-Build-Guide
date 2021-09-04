@@ -23,3 +23,5 @@ macos
 eeprom
 config
 keycapsss
+jis
+msys
