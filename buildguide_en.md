@@ -30,7 +30,7 @@
 
 ### Required parts
 
-Part name | Quantitty | Remarks | Photo |
+Part name | Quantity | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
 | Lily58L PCB | 2 pcs ||
 | Lily58L case | 1 set | 2 solid panels, 2 with holes for switches |
@@ -103,7 +103,7 @@ Solder the SK6812 Mini led's (without legs), to the marked positions on the **ba
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will not light up.
 
 ## Solder the led's for keycap back (optionally)
-> **It is necessary to solder all SK6812 Mini led's (underglow) in the previous step, to use the led's for the keycaps (all leds are connected in series).**
+> **It is necessary to solder all SK6812 Mini led's (underglow) in the previous step, to use the led's for the keycaps (all LED's are connected in series).**
 
 Solder the SK6812 Mini-E led's (with legs), on the **back side** of the board.  
 **Pay attention to orientation of the led's.**
@@ -126,7 +126,7 @@ It is necessary to solder all led's, even if you use the rotary encoder.
 
 For the LED's it's important to keep the heating as short as possible. Try to not touch the LED itself with the iron but rather only the solder that's supposed to connect to the metal pin. Use flux. 
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will either not light up at all or will light up in a different color than the default (red).
-Doublecheck the last LED that lights up properly and the first that doesn't.
+Double-check the last LED that lights up properly and the first that doesn't.
 On the LED's with legs it's easily possible to get a loose connection. 
 
 ## Soldering the TRRS jack and reset switch
@@ -150,7 +150,7 @@ Attach the connector for the OLED on front side (opposite side of diodes). Be ca
 
 **Before installing the Pro Micro, no matter which (can also happen on the Elite C), check whether they are working by plugging them in and flashing the default keymap.**
 
-**When Installing the Pro Micro Puchi-C or Elite C, be sure it has the right orientation! The chips on the Bord have to face downward and the USB Port is on the upper edge of your Board.**
+**When Installing the Pro Micro Puchi-C or Elite C, be sure it has the right orientation! The chips on the Board have to face downward and the USB Port is on the upper edge of your Board.**
 
 The pin header enclosed in the bag of Pro Micro can be used, but i recommend to use the Mill-Max socket headers.
 With the Mill-Max header it's easier to replace the Pro Micro, if it's broken. (Especially the Pro Micros will break at some point)
@@ -165,7 +165,7 @@ Solder the Standard header/Mill-Max sockets from the **back side**.
 
 ![Mill-Max socket headers](img/mill-max-socket-header-1.jpg)
 
-Insert the pins (you can also use legs from through hole diodes/resistor) with a plier into the sockets.
+Insert the pins (you can also use legs from through hole diodes/resistor) with a pliers into the sockets.
 
 ![](img/mill-max-12-single-row-socket-2.jpg)
 
@@ -181,7 +181,7 @@ For other ways to mount your Pro Micros, look at [the crkbd build guide.](https:
 
 Before you ask: The Procedure is absolutely identical for the Elite-C.
 
-### Some tipps for installing the OLED on the socket
+### Some tips for installing the OLED on the socket
 
 - if you soldered the socket for the OLED, remove the black plastic thingy that's part of the header installed in the OLED. The you'll be able to shorten it's legs with your pliers and put them into the socket, resulting into a way more low profile OLED.  
 - If you do not have sockets installed, you can add height to the oled, by removing pins out of headers, and putting the empty black plastics part onto the headers of the OLED.
@@ -192,9 +192,9 @@ Before you ask: The Procedure is absolutely identical for the Elite-C.
 
 Soldering the rotary encoder is as simple as any other component. Put the encoder from the front into the holes on the PCB, just below the screen, and solder it from the back.
 
-**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completly, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. (you can also just clip them off)
+**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completely, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. (you can also just clip them off)
 
-**For your information.** The top **two** legs serve as a simple connection that is closed by the rotary encoders tactile press. It's connected to the pins a switch would be connected to, if there were on in the place of the rotary encoder. Therefore, in your firmware the rotary encoder will serve, inter alia, as a switch in the matrix.
+**For your information.** The top **two** legs serve as a simple connection that is closed by the rotary encoders tactile press. It's connected to the pins a switch would be connected to, if there were on in the place of the rotary encoder. Therefore, in your firmware the rotary encoder will serve, among other things, as a switch in the matrix.
 The lower three pins do the actual rotary-encoding part
 
 ### You have reached a checkpoint
@@ -202,7 +202,7 @@ The lower three pins do the actual rotary-encoding part
 Plug your keyboard, look what happens, solve problems, be happy if there are none. (if you followed all the steps your pro micros should have firmware at this point)
 By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed (next step) with tweezers.
 
-> Add image here: "Test switches with tweezer"
+> Add image here: "Test switches with tweezers"
 
 ## Solder the sockets
 
@@ -239,7 +239,7 @@ Insert the switch into the board for alignment, and line up the components.
 
 
 After confirming that there are no bends in the switch pins, you can attach it firmly by starting from the middle row and working outward.
-Be careful: KailhBOX switches and Choc switches require some power for installation.
+Be careful: Kailh BOX switches and Choc switches require some power for installation.
 Always be careful to put the switches in nice and straight, otherwise you'll bend the pins and scratch the PCB.
 After mounting the plate, push the switches again to make sure that installation is complete.
 ![2019-01-26 15 10 06](https://user-images.githubusercontent.com/6285554/51967840-b66f3c80-24b3-11e9-8f50-6d8d31fe85e5.jpg)
@@ -277,7 +277,7 @@ The best of my own keyboard:
 
 ## Operation check
 
-Connect the left and right sides with a TRRS cable, connect the MicroUSB cable to Pro Micro on the left side (in the case of the default keymap), and check if the key responds.
+Connect the left and right sides with a TRRS cable, connect the Micro-USB cable to Pro Micro on the left side (in the case of the default keymap), and check if the key responds.
 The build is completed by attaching the four rubber feet to the back of each board. Thank you for your hard work.
 ![2019-01-26 15 24 52](https://user-images.githubusercontent.com/6285554/51967992-24b3ff00-24b4-11e9-8cd3-1e679094682f.jpg)
 ![unadjustednonraw_thumb_2ddc](https://user-images.githubusercontent.com/6285554/53640050-6203dc00-3c6e-11e9-9434-5591ed3e414f.jpg)
@@ -313,11 +313,11 @@ Check the direction of the diode in question. If it is wrong, remove it and re-s
 Since recognition of keyboard is recognized as JIS keyboard on OS, another symbol will be input when inputting with Lily 58 (treated as US keyboard).
 Please set Lily 58 as a US keyboard in the OS keyboard settings. After switching, switching to Japanese input becomes the switching key for the US keyboard, and it differs from the JIS keyboard, so please be careful (it can be customized with the keymap etc.).
 
-**If you have any problems, please feel free to send a message on Discord (https://discord.gg/frjFXZB) or Twitter: [@keycapsss](https://twitter.com/keycapsss)**
+**If you have any problems, please feel free to send a message on [Discord](https://discord.gg/frjFXZB) or Twitter: [@keycapsss](https://twitter.com/keycapsss)**
 
 ## Customize the default keymap
 
-This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customizable, and you can unlock a lot functionality simply by editing the keymap.
+This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customisable, and you can unlock a lot functionality simply by editing the keymap.
 
 ### Edit keymap.c and customize
 
