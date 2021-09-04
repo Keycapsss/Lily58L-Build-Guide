@@ -317,7 +317,7 @@ Please set Lily 58 as a US keyboard in the OS keyboard settings. After switching
 
 ## Customize the default keymap
 
-This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customisable, and you can unlock a lot functionality simply by editing the keymap.
+This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customizable, and you can unlock a lot functionality simply by editing the keymap.
 
 ### Edit keymap.c and customize
 
