@@ -4,10 +4,12 @@ bom
 bootloader
 config
 crkbd
+customizable
 dfu
 eeprom
 jis
 kailh
+kata
 keycap
 keycaps
 keycapsss
@@ -27,5 +29,3 @@ smd
 swappable
 trrs
 underglow
-kata
-customizable
