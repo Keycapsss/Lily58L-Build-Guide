@@ -30,7 +30,7 @@
 
 ### Required parts
 
-Partz name | Quantiety | Remarks | Photo |
+Part name | Quantity | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
 | Lily58L PCB | 2 pcs ||
 | Lily58L case | 1 set | 2 solid panels, 2 with holes for switches |
@@ -192,7 +192,7 @@ Before you ask: The Procedure is absolutely identical for the Elite-C.
 
 Soldering the rotary encoder is as simple as any other component. Put the encoder from the front into the holes on the PCB, just below the screen, and solder it from the back.
 
-**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completly, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. (you can also just clip them off)
+**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completely, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. (you can also just clip them off)
 
 **For your information.** The top **two** legs serve as a simple connection that is closed by the rotary encoders tactile press. It's connected to the pins a switch would be connected to, if there were on in the place of the rotary encoder. Therefore, in your firmware the rotary encoder will serve, inter alia, as a switch in the matrix.
 The lower three pins do the actual rotary-encoding part
