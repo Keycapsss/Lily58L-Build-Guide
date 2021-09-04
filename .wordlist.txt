@@ -29,3 +29,6 @@ smd
 swappable
 trrs
 underglow
+ctrl
+win
+cmd
