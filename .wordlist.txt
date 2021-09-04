@@ -25,3 +25,4 @@ config
 keycapsss
 jis
 msys
+pre

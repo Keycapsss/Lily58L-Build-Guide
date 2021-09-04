@@ -22,7 +22,7 @@
 - [Operation check](#operation-check)
 - [When in trouble](#when-in-trouble)
 - [Customize the default keymap](#customize-the-default-keymap)
-- [Use "Per Key" LEDs without underglow LEDs](#use-per-key-leds-without-underglow-leds)
+- [Use "Per Key" LED's without underglow LED's](#use-per-key-leds-without-underglow-leds)
 
 <!-- /TOC -->
 
@@ -108,7 +108,7 @@ The led's are connected in series. If a led is broken or has bad solder connecti
 Solder the SK6812 Mini-E led's (with legs), on the **back side** of the board.  
 **Pay attention to orientation of the led's.**
 
-We solder LEDs using the same approach as for the diodes.In that case: tin one pad, put the LED on, reflow, solder the other three pins.
+We solder LED's using the same approach as for the diodes.In that case: tin one pad, put the LED on, reflow, solder the other three pins.
 
 ![](img/sk6812-mini-e-led-1.jpg)
 
@@ -124,10 +124,10 @@ It is necessary to solder all led's, even if you use the rotary encoder.
 
 ![](img/sk6812-mini-e-led-3.jpg)
 
-For the LEDs it's important to keep the heating as short as possible. Try to not touch the LED itself with the iron but rather only the solder that's supposed to connect to the metal pin. Use flux. 
+For the LED's it's important to keep the heating as short as possible. Try to not touch the LED itself with the iron but rather only the solder that's supposed to connect to the metal pin. Use flux. 
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will either not light up at all or will light up in a different color than the default (red).
 Doublecheck the last LED that lights up properly and the first that doesn't.
-On the LEDs with legs it's easily possible to get a loose connection. 
+On the LED's with legs it's easily possible to get a loose connection. 
 
 ## Soldering the TRRS jack and reset switch
 
@@ -211,7 +211,7 @@ The sockets are mounted on the **back side**, the same side as the diodes.
 Much like the approach used for the diodes above, begin by pre-soldering one side of the socket pad, place the component, and hold it in place with tweezers. (The sockets can also be held in place by hand, but please take extra care not to burn yourself.)
 The image shows a soldered MX socket.
 
-The sockets take **way** more solder than the other components like the LEDs and the diodes. But don't exaggerate... 
+The sockets take **way** more solder than the other components like the LED's and the diodes. But don't exaggerate... 
 
 > Add image here: "Kailh hot swap sockets"
 
@@ -348,9 +348,9 @@ If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' w
 
 From then on, your keyboard will know, which side they are, no matter which side you plug in. You won't have to use the flags again when flashing an update of your keymap.
 
-## Use "Per Key" LEDs without underglow LEDs
+## Use "Per Key" LED's without underglow LED's
 
-If you don't want to use the underglow function with the SK6812-Mini LEDs, then bridget the solder pads on the following pictures with a small wire.
+If you don't want to use the underglow function with the SK6812-Mini LED's, then bridget the solder pads on the following pictures with a small wire.
 
 ![Left half - bridge underglow](img/lily58l-bridge-underglow-1.png)
 
