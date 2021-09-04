@@ -22,7 +22,7 @@
 - [Operation check](#operation-check)
 - [When in trouble](#when-in-trouble)
 - [Customize the default keymap](#customize-the-default-keymap)
-- [Use "Per Key" LEDs without underglow LEDs](#use-per-key-leds-without-underglow-leds)
+- [Use "Per Key" LED's without underglow LED's](#use-per-key-leds-without-underglow-leds)
 
 <!-- /TOC -->
 
@@ -30,7 +30,7 @@
 
 ### Required parts
 
-Part name | Quantiety | Remarks | Photo |
+Part name | Quantitty | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
 | Lily58L PCB | 2 pcs ||
 | Lily58L case | 1 set | 2 solid panels, 2 with holes for switches |
@@ -103,12 +103,12 @@ Solder the SK6812 Mini led's (without legs), to the marked positions on the **ba
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will not light up.
 
 ## Solder the led's for keycap back (optionally)
-> **It is necessary to solder all SK6812 Mini led's (underglow) in the previous step, to use the led's for the keycaps (all leds are connected in series).**
+> **It is necessary to solder all SK6812 Mini led's (underglow) in the previous step, to use the led's for the keycaps (all LED's are connected in series).**
 
 Solder the SK6812 Mini-E led's (with legs), on the **back side** of the board.  
 **Pay attention to orientation of the led's.**
 
-We solder LEDs using the same approach as for the diodes.In that case: tin one pad, put the LED on, reflow, solder the other three pins.
+We solder LED's using the same approach as for the diodes.In that case: tin one pad, put the LED on, reflow, solder the other three pins.
 
 ![](img/sk6812-mini-e-led-1.jpg)
 
@@ -124,10 +124,10 @@ It is necessary to solder all led's, even if you use the rotary encoder.
 
 ![](img/sk6812-mini-e-led-3.jpg)
 
-For the LEDs it's important to keep the heating as short as possible. Try to not touch the LED itself with the iron but rather only the solder that's supposed to connect to the metal pin. Use flux. 
+For the LED's it's important to keep the heating as short as possible. Try to not touch the LED itself with the iron but rather only the solder that's supposed to connect to the metal pin. Use flux. 
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will either not light up at all or will light up in a different color than the default (red).
-Doublecheck the last LED that lights up properly and the first that doesn't.
-On the LEDs with legs it's easily possible to get a loose connection. 
+Double-check the last LED that lights up properly and the first that doesn't.
+On the LED's with legs it's easily possible to get a loose connection. 
 
 ## Soldering the TRRS jack and reset switch
 
@@ -192,7 +192,7 @@ Before you ask: The Procedure is absolutely identical for the Elite-C.
 
 Soldering the rotary encoder is as simple as any other component. Put the encoder from the front into the holes on the PCB, just below the screen, and solder it from the back.
 
-**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completely, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. (you can also just clip them off)
+**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completly, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. (you can also just clip them off)
 
 **For your information.** The top **two** legs serve as a simple connection that is closed by the rotary encoders tactile press. It's connected to the pins a switch would be connected to, if there were on in the place of the rotary encoder. Therefore, in your firmware the rotary encoder will serve, inter alia, as a switch in the matrix.
 The lower three pins do the actual rotary-encoding part
@@ -211,7 +211,7 @@ The sockets are mounted on the **back side**, the same side as the diodes.
 Much like the approach used for the diodes above, begin by pre-soldering one side of the socket pad, place the component, and hold it in place with tweezers. (The sockets can also be held in place by hand, but please take extra care not to burn yourself.)
 The image shows a soldered MX socket.
 
-The sockets take **way** more solder than the other components like the LEDs and the diodes. But don't exaggerate... 
+The sockets take **way** more solder than the other components like the LED's and the diodes. But don't exaggerate... 
 
 > Add image here: "Kailh hot swap sockets"
 
@@ -334,23 +334,23 @@ If you get an error, please double-check the board, connection and command.
 You can tell each side of the Keyboard, whether it's left or right, by writing it into it's eeprom. 
 In order to do so, first put 
 
-	#define EE_HANDS
+    #define EE_HANDS
 
 into your config.h. 
 Then flash the keymap with 
-	
-	make make lily58/light:(yourkeymap):avrdude-split-left 
+    
+    make make lily58/light:(yourkeymap):avrdude-split-left 
 and
 
-	make make lily58/light:(yourkeymap):avrdude-split-right
+    make make lily58/light:(yourkeymap):avrdude-split-right
 respectively.
 If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'
 
 From then on, your keyboard will know, which side they are, no matter which side you plug in. You won't have to use the flags again when flashing an update of your keymap.
 
-## Use "Per Key" LEDs without underglow LEDs
+## Use "Per Key" LED's without underglow LED's
 
-If you don't want to use the underglow function with the SK6812-Mini LEDs, then bridget the solder pads on the following pictures with a small wire.
+If you don't want to use the underglow function with the SK6812-Mini LED's, then bridget the solder pads on the following pictures with a small wire.
 
 ![Left half - bridge underglow](img/lily58l-bridge-underglow-1.png)
 
